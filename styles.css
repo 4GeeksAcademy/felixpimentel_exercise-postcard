@@ -1,0 +1,87 @@
+body 
+{
+    background-color: #1a1a1a;
+    font-family: "Comic Sans MS", sans-serif;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.postcard 
+{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+h1 
+{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p 
+{
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.form-section 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.inputs 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea 
+{
+    width: 180px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+textarea 
+{
+    resize: none;
+    height: 60px;
+}
+
+img 
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+button 
+{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+button:hover 
+{
+    background-color: #bbb;
+}
